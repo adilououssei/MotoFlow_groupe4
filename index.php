@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-</body>
-</html>
+<?php
+/* ============================================================
+   index.php — Page d'entrée du projet
+   ============================================================
+   Quand on ouvre http://localhost/moto-flow/
+   PHP cherche index.php en premier.
+   On redirige simplement vers accueil.php.
+============================================================ */
+
+header('Location: accueil.php'); // Redirection vers l'accueil
+exit();
+?>
